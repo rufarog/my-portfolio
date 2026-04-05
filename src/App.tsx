@@ -8,10 +8,10 @@ import Reveal from "./components/Reveal"
 // 1. Define your projects in a simple list
 const projects = [
   {
-    title: "Vulnerability Scanner",
-    description: "An automated tool for identifying common network vulnerabilities and generating security reports.",
-    tags: ["Python", "Nmap", "Bash"],
-    link: "#"
+    title: "Vulnerable Web App Exploitation Writeup",
+    description: "Exploiting a web application vulnerabilities to gain remote access to a server and escalate privileges to read a restricted file",
+    tags: ["Netcat", "SQL Injection", "Reverse Shell", "Privilege Escalation"],
+    link: "https://github.com/rufarog/Cybersecurity-Labs-Projects/tree/main/Vulnerable-Web-App-Ecploitation"
   },
   {
     title: "Cloud Infrastructure Setup",
