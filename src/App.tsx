@@ -15,19 +15,42 @@ const projects = [
     isComingSoon: false // This is finished
   },
   {
-    title: "Cloud Infrastructure Setup",
-    description: "Automated deployment of secure AWS environments using Terraform and CloudFormation.",
-    tags: ["AWS", "Terraform", "Docker"],
-    link: "#",
-    isComingSoon: true // This will show the pulse/glow
-  },
-  {
-    title: "React Security Dashboard",
+    title: "Metasploit Web App Exploitation",
     description: "A real-time monitoring interface for tracking system logs and login attempts.",
-    tags: ["React", "TypeScript", "Tailwind"],
+    tags: ["Metasploit"],
+    link: "#",
+    isComingSoon: false // This will show the pulse/glow
+  }, {
+    title: "Active Directory Lab Setup",
+    description: "A real-time monitoring interface for tracking system logs and login attempts.",
+    tags: ["Active direcroty", "SQL Database"],
+    link: "#",
+    isComingSoon: false // This will show the pulse/glow
+  },
+   {
+    title: "CTF Steganography Challenge",
+    description: "Contributing to research assessing third-party application vulnerabilities within electric vehicles.",
+    tags: ["Steganography", "Password Cracking", "CTF Challenge"],
+    link: "#",
+    isComingSoon: false // This will show the pulse/glow
+  }
+  ,
+   {
+    title: "Password Strength Checker",
+    description: "A tool that evaluates entropy and securely hashes passwords using modern algorithms.",
+    tags: ["Python", "Encryption", "Hashing"],
     link: "#",
     isComingSoon: true // This will show the pulse/glow
   }
+  ,
+   {
+    title: "Research Project",
+    description: "Contributing to research assessing third-party application vulnerabilities within electric vehicles.",
+    tags: ["Electric Vehicles", "USB", "Third-Party Apps"],
+    link: "#",
+    isComingSoon: true // This will show the pulse/glow
+  }
+  
 ];
 
 function App() {
