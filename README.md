@@ -2,7 +2,7 @@
 A high-performance, responsive portfolio website built with React, TypeScript, and Tailwind CSS v4. Designed with a "Cyber/System" aesthetic to showcase cybersecurity projects, write-ups, and professional certifications.
 
 ## 🚀 Live Demo
-View My Portfolio (Replace with your GitHub Pages URL once live)
+View My Portfolio https://rufarog.github.io/my-portfolio/
 
 ## 🛠️ Tech Stack
 Framework: React 18
@@ -19,21 +19,21 @@ Deployment: GitHub Pages
 
 ## ✨ Key Features
 1. "Cyber System" Project Cards
-System Pulse: Projects currently in development feature a "Cyber Blue" breathing animation and a System Active status badge.
+System Pulse: Projects currently in development feature a "Cyber Blue" breathing animation and a status badge.
 
 Conditional Rendering: Automatically toggles between "View Project" links and "Compiling Data" indicators based on project readiness.
 
-2. Security-First Resume Integration
+## 2. Security-First Resume Integration
 Direct Download: Integrated resume download button in the Hero section using the HTML5 download attribute.
 
 Clean Architecture: Static assets managed via the /public directory for reliable pathing.
 
-3. Certification & Skills Matrix
+## 3. Certification & Skills Matrix
 Verification-Focused: A dedicated section for IT certifications (AWS, Microsoft, ISC2, Cisco).
 
-Lead Paragraph: A high-impact "About Me" section designed for quick scanning by SOC and IAM recruiters.
+Lead Paragraph: A high-impact "About Me" section designed for quick scanning by recruiters.
 
-4. Optimized Performance
+## 4. Optimized Performance
 Glassmorphism UI: Modern Navbar with backdrop-blur effects.
 
 Responsive Grid: Fluid layouts that adapt from mobile devices to ultra-wide monitors.
@@ -78,8 +78,5 @@ npm run deploy
 [ ] Interactive Terminal: A CLI-style component for users to "query" my skills.
 
 [ ] GitHub API: Live fetching of repository statistics.
-
-📄 License
-This project is open-source and available under the MIT License.
 
 Built with ⌨️ and a lot of ☕ by Rufaro
