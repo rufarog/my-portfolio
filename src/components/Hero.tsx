@@ -13,7 +13,7 @@ export default function Hero() {
       
       <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
         Rufaro Gonyora <br /> 
-        <span className="text-zinc-500">Cybersecurity Potfolio</span>
+        <span className="text-zinc-500">Cybersecurity Portfolio</span>
       </h1>
       
       <p className="max-w-xl text-lg text-zinc-400 leading-relaxed mb-8">

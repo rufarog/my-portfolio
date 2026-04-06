@@ -1,29 +1,32 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import ProjectCard from "./components/ProjectCard"
-import About from "./components/About"     // New Import
-import Contact from "./components/Contact" // New Import
+import About from "./components/About" 
+import Contact from "./components/Contact"
 import Reveal from "./components/Reveal"
 
-// 1. Define your projects in a simple list
+// 1. Define your projects with the isComingSoon flag
 const projects = [
   {
     title: "Vulnerable Web App Exploitation Writeup",
     description: "Exploiting a web application vulnerabilities to gain remote access to a server and escalate privileges to read a restricted file",
     tags: ["Netcat", "SQL Injection", "Reverse Shell", "Privilege Escalation"],
-    link: "https://github.com/rufarog/Cybersecurity-Labs-Projects/tree/main/Vulnerable-Web-App-Ecploitation"
+    link: "https://github.com/rufarog/Cybersecurity-Labs-Projects/tree/main/Vulnerable-Web-App-Ecploitation",
+    isComingSoon: false // This is finished
   },
   {
     title: "Cloud Infrastructure Setup",
     description: "Automated deployment of secure AWS environments using Terraform and CloudFormation.",
     tags: ["AWS", "Terraform", "Docker"],
-    link: "#"
+    link: "#",
+    isComingSoon: true // This will show the pulse/glow
   },
   {
     title: "React Security Dashboard",
     description: "A real-time monitoring interface for tracking system logs and login attempts.",
     tags: ["React", "TypeScript", "Tailwind"],
-    link: "#"
+    link: "#",
+    isComingSoon: true // This will show the pulse/glow
   }
 ];
 
@@ -51,7 +54,14 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projects.map((p, i) => (
               <Reveal key={i}>
-                <ProjectCard title={p.title} description={p.description} tags={p.tags} link={p.link} />
+                {/* 2. Pass the isComingSoon prop here */}
+                <ProjectCard 
+                  title={p.title} 
+                  description={p.description} 
+                  tags={p.tags} 
+                  link={p.link} 
+                  isComingSoon={p.isComingSoon} 
+                />
               </Reveal>
             ))}
           </div>
