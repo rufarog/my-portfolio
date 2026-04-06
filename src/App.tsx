@@ -16,14 +16,14 @@ const projects = [
   },
   {
     title: "Metasploit Web App Exploitation",
-    description: "A real-time monitoring interface for tracking system logs and login attempts.",
+    description: "A lab using Metasploit to identify vulnerabilities to perform exploits.",
     tags: ["Metasploit"],
     link: "#",
     isComingSoon: false // This will show the pulse/glow
   }, {
     title: "Active Directory Lab Setup",
-    description: "A real-time monitoring interface for tracking system logs and login attempts.",
-    tags: ["Active direcroty", "SQL Database"],
+    description: "Active Directory setup for ACME.com using Virtual Machines.",
+    tags: ["Active directory", "SQL Database", "Windows Server"],
     link: "#",
     isComingSoon: false // This will show the pulse/glow
   },
@@ -36,11 +36,11 @@ const projects = [
   }
   ,
    {
-    title: "Password Strength Checker",
-    description: "A tool that evaluates entropy and securely hashes passwords using modern algorithms.",
-    tags: ["Python", "Encryption", "Hashing"],
-    link: "#",
-    isComingSoon: true // This will show the pulse/glow
+    title: "Sales and Quote Managment Software",
+    description: "A Capstone project that implemented a Inventory and Managment System for a client.",
+    tags: ["C#", "ASP.NET Core", "MVC"],
+    link: "https://github.com/AmalShaiju/OASIS",
+    isComingSoon: false // This will show the pulse/glow
   }
   ,
    {
