@@ -7,7 +7,7 @@ export default function Contact() {
         <a href="mailto:rufaro2410@gmail.com" className="text-zinc-400 hover:text-emerald-400 transition-colors font-mono text-sm">
           Email
         </a>
-        <a href="https://github.com/rufarog" target="_blank" className="text-zinc-400 hover:text-emerald-400 transition-colors font-mono text-sm">
+        <a href="https://github.com/rufarog/Cybersecurity-Labs-Projects" target="_blank" className="text-zinc-400 hover:text-emerald-400 transition-colors font-mono text-sm">
           GitHub
         </a>
         <a href="https://www.linkedin.com/in/rufaro-gonyora-29b664213/" target="_blank" className="text-zinc-400 hover:text-emerald-400 transition-colors font-mono text-sm">

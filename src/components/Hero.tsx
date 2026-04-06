@@ -12,8 +12,8 @@ export default function Hero() {
       </div>
       
       <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-        Building secure <br /> 
-        <span className="text-zinc-500">digital experiences.</span>
+        Rufaro Gonyora <br /> 
+        <span className="text-zinc-500">Cybersecurity Potfolio</span>
       </h1>
       
       <p className="max-w-xl text-lg text-zinc-400 leading-relaxed mb-8">

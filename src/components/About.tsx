@@ -1,8 +1,8 @@
 export default function About() {
   const skills = [
-    { category: "Certifications", items: ["Microsoft AZ-900", "ISC2 Certified in Cybersecurity", "AWS Cloud Practitioner"] },
-    { category: "Development", items: ["React", "TypeScript", "Python", "PHP", "Java"] },
-    { category: "Infrastructure", items: ["AWS", "Docker", "Linux (Fedora/Ubuntu)"] },
+    { category: "Certifications", items: ["Microsoft AZ-900", "ISC2 Certified in Cybersecurity", "AWS Cloud Practitioner","Mircosoft SC-900", "Security+ (In Progress)", "AWS Certified Solutions Architect (In Progress)", "Cisco Certificate in Ethical Hacking (In Progress)" ] },
+    { category: "Development", items: ["React", "TypeScript", "Python", "PHP", "Java", "SQL", "C#", "Bash Scripting"] },
+    { category: "Infrastructure", items: ["AWS","Azure", "Windows","MacOS", "Linux (Fedora/Ubuntu/Kali)"] },
   ];
 
   return (
@@ -11,8 +11,9 @@ export default function About() {
         <div className="md:col-span-1">
           <h2 className="text-zinc-500 uppercase tracking-widest text-sm font-bold mb-6">About Me</h2>
           <p className="text-zinc-400 leading-relaxed">
-            I’m a Cybersecurity professional based in Canada with a passion for building secure, efficient systems. 
-            I enjoy the intersection of clean front-end code and robust backend security.
+            I’m a recent Cybersecurity Analytics graduate student with a background in software development, with a strong interest in defensive security, risk analysis and cloud security.  
+             I am currently seeking an entry-level opportunity in Cybersecurity such as a SOC Analyst, Cybersecurity Analyst, Risk Analyst, 
+             or Identity and Access Management (IAM) role where I can apply my technical skills, continue learning, and contribute to improving organizational security.
           </p>
         </div>
         
