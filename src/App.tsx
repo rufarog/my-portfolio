@@ -28,8 +28,8 @@ const projects = [
     isComingSoon: false // This will show the pulse/glow
   },
    {
-    title: "CTF Steganography Challenge",
-    description: "Contributing to research assessing third-party application vulnerabilities within electric vehicles.",
+    title: "CTF Steganography Challenge Writeup",
+    description: "A Steganography CTF challenge writeup from CyberSci 2025.",
     tags: ["Steganography", "Password Cracking", "CTF Challenge"],
     link: "#",
     isComingSoon: false // This will show the pulse/glow
