@@ -1,10 +1,10 @@
-Dark Minimalist Technical Portfolio
+# Dark Minimalist Technical Portfolio
 A high-performance, responsive portfolio website built with React, TypeScript, and Tailwind CSS v4. Designed with a "Cyber/System" aesthetic to showcase cybersecurity projects, write-ups, and professional certifications.
 
-🚀 Live Demo
+## 🚀 Live Demo
 View My Portfolio (Replace with your GitHub Pages URL once live)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Framework: React 18
 
 Language: TypeScript (Strictly typed components)
@@ -17,7 +17,7 @@ Build Tool: Vite
 
 Deployment: GitHub Pages
 
-✨ Key Features
+## ✨ Key Features
 1. "Cyber System" Project Cards
 System Pulse: Projects currently in development feature a "Cyber Blue" breathing animation and a System Active status badge.
 
