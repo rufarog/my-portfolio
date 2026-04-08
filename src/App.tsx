@@ -14,6 +14,15 @@ const projects = [
     link: "https://github.com/rufarog/Cybersecurity-Labs-Projects/tree/main/Vulnerable-Web-App-Ecploitation",
     isComingSoon: false // This is finished
   },
+
+  {
+    title: "Sales and Quote Managment Software",
+    description: "A Collaboratory Capstone project that implemented a Inventory and Managment System for a client.",
+    tags: ["C#", "ASP.NET Core", "MVC"],
+    link: "https://github.com/AmalShaiju/OASIS",
+    isComingSoon: false // This will show the pulse/glow
+  }
+  ,
   {
     title: "Metasploit Web App Exploitation",
     description: "A lab using Metasploit to identify vulnerabilities to perform exploits.",
@@ -25,24 +34,17 @@ const projects = [
     description: "Active Directory setup for ACME.com using Virtual Machines.",
     tags: ["Active directory", "SQL Database", "Windows Server"],
     link: "#",
-    isComingSoon: false // This will show the pulse/glow
+    isComingSoon: true // This will show the pulse/glow
   },
-   {
-    title: "CTF Steganography Challenge Writeup",
-    description: "A Steganography CTF challenge writeup from CyberSci 2025.",
-    tags: ["Steganography", "Password Cracking", "CTF Challenge"],
-    link: "#",
-    isComingSoon: false // This will show the pulse/glow
-  }
-  ,
-   {
-    title: "Sales and Quote Managment Software",
-    description: "A Capstone project that implemented a Inventory and Managment System for a client.",
-    tags: ["C#", "ASP.NET Core", "MVC"],
-    link: "https://github.com/AmalShaiju/OASIS",
-    isComingSoon: false // This will show the pulse/glow
-  }
-  ,
+  //  {
+  //   title: "CTF Steganography Challenge Writeup",
+  //   description: "A Steganography CTF challenge writeup from CyberSci 2025.",
+  //   tags: ["Steganography", "Password Cracking", "CTF Challenge"],
+  //   link: "#",
+  //   isComingSoon: false // This will show the pulse/glow
+  // }
+  // ,
+   
    {
     title: "Research Project",
     description: "Contributing to research assessing third-party application vulnerabilities within electric vehicles.",
