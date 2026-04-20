@@ -27,15 +27,16 @@ const projects = [
     title: "Metasploit Web App Exploitation",
     description: "A lab using Metasploit to identify vulnerabilities to perform exploits.",
     tags: ["Metasploit"],
-    link: "#",
+    link: "https://github.com/rufarog/Cybersecurity-Labs-Projects/tree/main/Metasploit-Web-App-Exploitation",
     isComingSoon: false // This will show the pulse/glow
-  }, {
-    title: "Active Directory Lab Setup",
-    description: "Active Directory setup for ACME.com using Virtual Machines.",
-    tags: ["Active directory", "SQL Database", "Windows Server"],
-    link: "#",
-    isComingSoon: true // This will show the pulse/glow
-  },
+  }, 
+  // {
+  //   title: "Active Directory Lab Setup",
+  //   description: "Active Directory setup for ACME.com using Virtual Machines.",
+  //   tags: ["Active directory", "SQL Database", "Windows Server"],
+  //   link: "#",
+  //   isComingSoon: true // This will show the pulse/glow
+  // },
   //  {
   //   title: "CTF Steganography Challenge Writeup",
   //   description: "A Steganography CTF challenge writeup from CyberSci 2025.",
