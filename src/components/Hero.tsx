@@ -17,7 +17,7 @@ export default function Hero() {
       </h1>
       
       <p className="max-w-xl text-lg text-zinc-400 leading-relaxed mb-8">
-        I'm a software developer and a recent cybersecurity analyst graduate, focused on building robust, scalable applications 
+        I'm a software developer with a focus in cybersecurity. I am focused on building robust, scalable applications 
         and analyzing system vulnerabilities.
       </p>
 

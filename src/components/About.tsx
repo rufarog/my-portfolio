@@ -8,8 +8,8 @@ export default function About() {
         "AWS Cloud Practitioner",
         "Microsoft SC-900", // Fixed typo here
         "Security+ (In Progress)", 
-        "AWS Certified Solutions Architect (In Progress)", 
-        "Cisco Certificate in Ethical Hacking (In Progress)" 
+        // "AWS Certified Solutions Architect (In Progress)", 
+        // "Cisco Certificate in Ethical Hacking (In Progress)" 
       ] 
     },
     { 
