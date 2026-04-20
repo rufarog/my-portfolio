@@ -13,12 +13,12 @@ export default function Hero() {
       
       <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
         Rufaro Gonyora <br /> 
-        <span className="text-zinc-500">Cybersecurity Portfolio</span>
+        <span className="text-zinc-500">Portfolio</span>
       </h1>
       
       <p className="max-w-xl text-lg text-zinc-400 leading-relaxed mb-8">
-        I'm a developer and analyst focused on building robust, scalable applications 
-        and analyzing system vulnerabilities. Based in Ontario, Canada.
+        I'm a software developer and a recent cybersecurity analyst graduate, focused on building robust, scalable applications 
+        and analyzing system vulnerabilities.
       </p>
 
       <div className="flex gap-4">
