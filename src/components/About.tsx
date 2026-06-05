@@ -7,7 +7,7 @@ export default function About() {
         "ISC2 Certified in Cybersecurity", 
         "AWS Cloud Practitioner",
         "Microsoft SC-900", // Fixed typo here
-        "Security+", 
+        "CompTIA Security+", 
         // "AWS Certified Solutions Architect (In Progress)", 
         // "Cisco Certificate in Ethical Hacking (In Progress)" 
       ] 
